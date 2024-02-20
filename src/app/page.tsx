@@ -1,5 +1,3 @@
-import Header from './components/header/Header';
-
 import dynamic from 'next/dynamic';
 
 const DynamicHeader = dynamic(() => import('./components/header/Header'), {
